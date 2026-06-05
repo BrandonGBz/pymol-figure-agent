@@ -667,7 +667,7 @@ def _resolve_default(value: Any) -> Any:
 @mcp.prompt(title="Create Publication Figure")
 def create_publication_figure(pdb_id: str = "6LU7") -> str:
     return (
-        f"Use the PyMOL Figure Agent tools to create a publication-ready molecular figure. "
+        f"Use the MolWeaver tools to create a publication-ready molecular figure. "
         f"Load PDB {pdb_id}, show the protein as a clean cartoon, color chains distinctly, "
         "show organic ligands as sticks, remove solvent, render a high-resolution PNG with "
         "ray tracing enabled, and export editable .pse and reproducible .pml artifacts."

@@ -88,7 +88,7 @@ Example configuration for Claude Desktop (`claude_desktop_config.json`):
 }
 ```
 
-Replace `/absolute/path/to/pymol-figure-agent` with the actual path on your system.
+Replace `/absolute/path/to/molweaver` with the actual path on your system.
 See `examples/mcp_config_example.json` for a template.
 
 If your client does not support relative paths, use the absolute path to `mcp_server.py`
